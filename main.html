@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Bookaholic</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                background: green;
+            }
+      
+            h1 {
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+      
+            span::before {
+                content: "Welcome";
+                animation: animate infinite 3s;
+                padding-left: 10px;
+            }
+      
+            @keyframes animate {
+      
+                0% {
+                    content: "Welcome";
+                }
+      
+                50% {
+                    content: "to";
+                }
+      
+                75% {
+                    content: "Bookaholic";
+                }
+            }
+        </style>
+    </head>
+    <body class="body3">
+        
+        <header>
+            <div class="container">
+                <img src="img/bookaholic.png" alt="bookaholic" class="logo"/>
+                <nav>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="mustread.html">Must Read</a></li>
+                        <li><a href="Mystery.html">Mystery</a></li>
+                        <li><a href="Novel.html">Novel</a></li>
+                        <li><a href="Fiction.html">Science Fiction</a></li>
+                        <li><a href="Login.html">Logout</a></li>
+
+                    </ul>
+                </nav>
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        <h1>Hey there!!!<span> </span></h1>
+        <h1>Select your favourite genre from the above navbar to get started</h1>
+    </body>
+</html>
